@@ -1,22 +1,22 @@
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.html$/i,
-        loader: 'html-loader',
-      },
-    ],
-  },
-  entry: 'index.js',
+  entry: './src/index.js',
   output: {
-    path: __dirname + '/dist',
-    filename: 'index_bundle.js',
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 3000,
+    open: true,
   },
   plugins: [
-    new CopyWebpackPlugin([
-      { from: './src/example.html', to: './example.html' },
-    ]),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html',
+      inject: 'body',
+    }),
   ],
 };
