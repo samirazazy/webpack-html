@@ -1,0 +1,117 @@
+.theme1 .screenHolderStyle {}
+
+.green .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.red .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.brown .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.orange .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.pink .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.chrome_yellow .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.yellowgreen .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.purple .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #009899;
+}
+
+.purple1 .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.cyan .headerStyle .contentArea {
+    width: 100%;
+    height: 100%;
+    background-color: #73C3F8;
+}
+
+.headerStyle .headerText {
+    position: absolute;
+    background-color: #FF0;
+    width: 50%;
+    height: 65px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 2em;
+    text-align: left;
+}
+
+.headerStyle .btnHeaderContainer {
+    position: absolute;
+    right: 0px;
+    background-color: #00F;
+    width: 50%;
+    height: 65px;
+    top: 0;
+}
+
+.headerStyle .common {
+    position: relative;
+    float: right;
+    height: 35px;
+    width: 125px;
+    background-color: orange;
+    top: 30px;
+    line-height: 2.4em;
+}
+
+.headerStyle .help {}
+
+.headerStyle .home {
+    margin-left: 15px;
+}
+
+.headerStyle .exit {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/***Media Query for landscape Mobile***/
+
+@media screen and (max-height: 361px) {}
+
+
+/*Retina CSS Here*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( -min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {}

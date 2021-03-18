@@ -1,0 +1,1 @@
+define(["components/commonmodel"],function(e){var n=e.extend({defaults:{filledWith:"",activeClass:"",hoverClass:"",value:"",checkOrder:!1}});return n});

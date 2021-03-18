@@ -1,0 +1,1 @@
+define(["marionette","player/editor/case-editor"],function(e,t){var r;return r=t.extend({}),r.prototype.MultipleChoiceEditorSuper=t,r.prototype.destroy=function(){return this.MultipleChoiceEditorSuper.prototype.destroy(this,!0)},r});

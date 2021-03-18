@@ -1,0 +1,1 @@
+define(["player/base/base-display-comp"],function(p){var t;return t=p.extend({type:"popup"}),t.prototype.POPUP_CLOSE_EVENT="popupCloseEvent",t.prototype.closePopup=function(p){this.customEventDispatcher(this.POPUP_CLOSE_EVENT,this,p)},t.prototype.BasePopupCompSuper=p,t.prototype.destroy=function(p){return this.BasePopupCompSuper.prototype.destroy.call(this,p)},t});

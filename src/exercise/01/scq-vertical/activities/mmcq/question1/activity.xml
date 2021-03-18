@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <multipleChoice>
+
+        <questions>
+            <question id="1" correctAns="2">
+                <shuffleData>False</shuffleData>
+                <qnsText>
+                    <![CDATA[
+                    <ol type="1" start="1"><li>
+      In the case of complementary genes, the appearance of the dominant trait requires only one gene. 
+</li>
+              </ol>
+               
+               ]]>
+                </qnsText>
+                <options id="1">
+                    <label>
+                        <![CDATA[True]]>
+                    </label>
+                </options>
+                <options id="2">
+                    <label>
+                        <![CDATA[False]]>
+                    </label>
+                </options>
+            </question>
+        </questions>
+    </multipleChoice>

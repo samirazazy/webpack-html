@@ -1,0 +1,1 @@
+define(["components/commonmodel"],function(e){var n=e.extend({defaults:{containmentDiv:void 0,droppedAt:void 0,clone:"false",cloneCounter:0,value:"",gridX:-1,gridY:-1}});return n});

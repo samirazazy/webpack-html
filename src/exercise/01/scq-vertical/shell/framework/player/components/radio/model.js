@@ -1,0 +1,1 @@
+define(["components/commonmodel"],function(e){var n=e.extend({defaults:{view:"",checked:"",disabled:""}});return n});

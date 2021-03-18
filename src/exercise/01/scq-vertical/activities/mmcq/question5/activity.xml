@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <multipleChoice>
+        <questions>
+            <question id="5" correctAns="2">
+                 <shuffleData>False</shuffleData>  
+                <qnsText>
+                    <![CDATA[
+  <ol type="1" start="5"><li>
+ Complementary genes are one of the genetic conditions which follow Mendelian laws. 
+ </li></ol>
+]]>
+                </qnsText>
+                <options id="1">
+                    <label>
+                        <![CDATA[True]]>
+                    </label>
+                </options>
+                <options id="2">
+                    <label>
+                        <![CDATA[False]]>
+                    </label>
+                </options>
+            </question>
+        </questions>
+    </multipleChoice>

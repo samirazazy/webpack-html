@@ -1,0 +1,1 @@
+define(["marionette","player/base/base-layout-comp"],function(e,t){var i=t.extend({template:_.template('<div id="optionHolder"><span id="optionLabel">{{ label }}</span><div id="optionImage"></div></div>'),initialize:function(){},onRender:function(){this.storeState()}});return i.prototype.storeState=function(){},i});

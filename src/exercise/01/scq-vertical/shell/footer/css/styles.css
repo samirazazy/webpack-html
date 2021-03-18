@@ -1,0 +1,2710 @@
+    .theme1 .screenHolderStyle {}
+
+    .footerStyle .contentArea {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footerStyle .btnFooterContainer {
+        position: absolute;
+        right: 0px;
+        background-color: #00F;
+        width: 40%;
+        height: 65px;
+        top: 0;
+    }
+
+    .footerStyle .common {
+        position: relative;
+        float: right;
+        height: 35px;
+        width: 85px;
+        background-color: orange;
+        top: 30px;
+        line-height: 2.4em;
+    }
+
+    .footerStyle .left {}
+
+    .footerStyle .right {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .footerStyle .refresh {
+        margin-left: 15px;
+    }
+
+    .footerStyle .logo {
+        position: absolute;
+        left: 0;
+        height: 65px;
+        width: 20%;
+        background-color: black;
+    }
+
+    .footerStyle .progressData {
+        position: absolute;
+        left: 20%;
+        height: 65px;
+        width: 40%;
+        background-color: #A52A2A;
+    }
+
+    .footerStyle .printBtn {
+        position: absolute;
+        left: 77px;
+        top: 30px;
+        display: none;
+        cursor: pointer;
+        cursor: pointer;
+        background-repeat: no-repeat;
+    }
+    .footerStyle .showanswerBtn {
+        position: absolute;
+        left: 255px;
+        top: 13px;
+      }
+    .footerStyle .tryAgainSubmitParent {
+        position: absolute;
+        height: auto;
+        width: 400px;
+        min-height: 50px;
+        left: auto;
+        top: auto;
+        border: 1px solid rgb(128, 128, 128);
+        border-radius: 5px;
+    }
+
+    .footerStyle .resetBtn {
+        position: absolute;
+        left: 105px;
+        top: 13px;
+        cursor: pointer;
+        color: #FFFFFF;
+        background-repeat: no-repeat;
+    }
+
+    .resetBtn2 {
+        left: 334px;
+        top: -2px;
+    }
+
+    .resetBtn3 {
+        left: 235px;
+        top: -2px;
+    }
+
+    .footerStyle .submitButton {
+        position: absolute;
+        cursor: pointer;
+        top: 25px;
+        left: 471px;
+    }
+
+    .submitButton2 {
+        right: 334px;
+        top: -2px;
+    }
+
+    .submitButton3 {
+        right: 260px;
+        top: -2px;
+    }
+
+    .footerStyle .tryAgainBtn {
+        position: absolute;
+        cursor: pointer;
+        top: 13px;
+        left: 329px;
+    }
+    /*
+ .tryAgainBtn2{
+ left: 334px;
+ top: 0px;
+ }*/
+
+    .tryAgainBtn3 {
+        left: 429px;
+        top: -2px;
+    }
+
+    .footerStyle .backBtn {
+        position: absolute;
+        right: 235px;
+        top: 13px;
+        cursor: pointer;
+    }
+
+    .footerStyle .backBtn span {
+        pointer-events: none;
+        position: absolute;
+        left: -10px;
+    }
+
+    .footerStyle .nextBtn {
+        position: absolute;
+        right: 77px;
+        top: 13px;
+        cursor: pointer;
+    }
+
+    .footerStyle .nextBtn span {
+        pointer-events: none;
+        position: absolute;
+        left: 7px;
+    }
+
+    .navigationBar {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        border: 1px solid;
+    }
+
+    .navigationBar1 {
+        left: 450px;
+    }
+
+    .navigationBar2 {
+        left: 500px;
+    }
+
+    .navigationBar3 {
+        left: 550px;
+    }
+
+    .navigationBar4 {
+        left: 600px;
+    }
+
+    .navigationBar5 {
+        left: 650px;
+    }
+
+    .buttonIcon {
+        width: 52px;
+        height: 58px;
+        background-repeat: no-repeat;
+    }
+
+    #navigationBox {
+        position: absolute;
+        top: -33px;
+        height: 16px;
+        width: 100%;
+    }
+
+    #navigationInnerBox {
+        width: 172px;
+        height: 10px;
+        position: relative;
+        left: 14px !important;
+    }
+
+    .navBar {
+        width: 12px;
+        height: 12px;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 50%;
+        background-color: #03579F;
+        top: 5px;
+        float: left;
+    }
+
+    .brown .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+    }
+
+    .desktop .brown .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .brown .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .brown .printBtnDisabled {
+        background-image: url("../../images/matching/print.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+    }
+
+    .brown .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+    }
+
+    .desktop .brown .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .brown .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .brown .resetBtnDisabled {
+        background-image: url("../../images/matching/reset.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+    }
+
+    .brown .backBtn {
+        background-image: url("../../images/matching/left.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+        background-position: -2px;
+    }
+
+    .desktop .brown .backBtn:hover {
+        background-image: url("../../images/matching/left.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .brown .backBtn:active {
+        background-image: url("../../images/matching/left.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .brown .backBtnDisabled {
+        background-image: url("../../images/matching/left.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+    }
+
+    .brown .nextBtn {
+        background-image: url("../../images/matching/right.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+        background-position: 3px;
+    }
+
+    .desktop .brown .nextBtn:hover {
+        background-image: url("../../images/matching/right.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .brown .nextBtn:active {
+        background-image: url("../../images/matching/right.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .brown .nextBtnDisabled {
+        background-image: url("../../images/matching/right.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+    }
+
+    .brown .selected {
+        background-color: #73C3F8;
+    }
+
+    .brown .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #fff; */
+        /*! font-weight: bold; */
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+    }
+
+    .desktop .brown .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+        /*  border: 1px solid #fff; */
+        font-weight: bold;
+    }
+
+    .desktop .brown .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+        /* border: 1px solid #fff; */
+        font-weight: bold;
+    }
+
+    .brown .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #fff; */
+        /*! font-weight: bold; */
+        /*! box-shadow: 0px 3.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+    }
+
+    .desktop .brown .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .brown .submitButton:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .brown .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+        box-shadow: unset;
+    }
+    /*BROWN THEAME END HERE  */
+    /*chrome_yellow theme start here*/
+
+    .chrome_yellow .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+    }
+
+    .desktop .chrome_yellow .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .chrome_yellow .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .chrome_yellow .printBtnDisabled {
+        background-image: url("../../images/matching/print.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(213, 128, 10);
+    }
+
+    .chrome_yellow .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .chrome_yellow .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .chrome_yellow .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .chrome_yellow .backBtn {
+        background-image: url("../../images/matching/left.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: -2px;
+    }
+
+    .desktop .chrome_yellow .backBtn:hover {
+        background-image: url("../../images/matching/left.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .chrome_yellow .backBtn:active {
+        background-image: url("../../images/matching/left.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .chrome_yellow .backBtnDisabled {
+        background-image: url("../../images/matching/left.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .chrome_yellow .nextBtn {
+        background-image: url("../../images/matching/right.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        background-color: #03579F;
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: 3px;
+    }
+
+    .desktop .chrome_yellow .nextBtn:hover {
+        background-image: url("../../images/matching/right.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .chrome_yellow .nextBtn:active {
+        background-image: url("../../images/matching/right.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .chrome_yellow .nextBtnDisabled {
+        background-image: url("../../images/matching/right.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .chrome_yellow .selected {
+        background-color: rgb(165, 78, 14);
+    }
+
+    .chrome_yellow .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 145px;
+        height: 45px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgb(145, 22, 98);
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        border: 1px solid #fff;
+        display: none;
+    }
+
+    .desktop .chrome_yellow .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .chrome_yellow .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .chrome_yellow .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 3.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+        /*! border: 1px solid #fff; */
+        /*! font-weight: bold; */
+        left: 286px;
+    }
+
+    .desktop .chrome_yellow .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .chrome_yellow .submitButton:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .chrome_yellow .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .chrome_yellow .navBar {
+        background-color: rgb(3, 87, 159);
+    }
+
+    .chrome_yellow .selected {
+        background-color: rgb(115, 195, 248) !important;
+    }
+    /*yellow_green theme start here*/
+
+    .yellowgreen .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+    }
+
+    .yellowgreen .submitButton span {
+        /*! line-height:2.5; */
+    }
+
+    .desktop .yellowgreen .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .yellowgreen .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .yellowgreen .printBtnDisabled {
+        background-image: url("../../images/matching/print.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(98, 175, 28);
+    }
+
+    .yellowgreen .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgb(3, 87, 159);
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .yellowgreen .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .yellowgreen .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .yellowgreen .resetBtnDisabled {
+        background-image: url("../../images/matching/reset.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(98, 175, 28);
+    }
+
+    .yellowgreen .backBtn {
+        background-image: url("../../images/matching/left.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: -2px;
+    }
+
+    .desktop .yellowgreen .backBtn:hover {
+        background-image: url("../../images/matching/left.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .yellowgreen .backBtn:active {
+        background-image: url("../../images/matching/left.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .yellowgreen .backBtnDisabled {
+        background-image: url("../../images/matching/left.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .yellowgreen .nextBtn {
+        background-image: url("../../images/matching/right.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgba(0, 134, 56, 1);
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        background-color: #03579F;
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: 3px;
+    }
+
+    .desktop .yellowgreen .nextBtn:hover {
+        background-image: url("../../images/matching/right.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .yellowgreen .nextBtn:active {
+        background-image: url("../../images/matching/right.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .yellowgreen .nextBtnDisabled {
+        background-image: url("../../images/matching/right.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .yellowgreen .selected {
+        background-color: rgb(7, 96, 32);
+    }
+
+    .yellowgreen .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 145px;
+        height: 45px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgb(7, 153, 55);
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 17.5px/45px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        display: none;
+    }
+
+    .desktop .yellowgreen .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .yellowgreen .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .yellowgreen .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgb(3, 87, 159);
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 3.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+        /*! border: 1px solid #fff; */
+        /*! font-weight: bold; */
+        left: 286px;
+    }
+
+    .desktop .yellowgreen .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .yellowgreen .submitButton:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .yellowgreen .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .yellowgreen .navBar {
+        background-color: rgb(3, 87, 159);
+    }
+
+    .yellowgreen .selected {
+        background-color: rgb(115, 195, 248) !important;
+    }
+    /*pink theme start here*/
+
+    .pink .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+    }
+
+    .desktop .pink .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .pink .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .pink .printBtnDisabled {
+        background-image: url("../../images/matching/print.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(191, 49, 130);
+    }
+
+    .pink .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgb(3, 87, 159);
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .pink .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .pink .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .pink .backBtn {
+        background-image: url("../../images/matching/left.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: -2px;
+    }
+
+    .desktop .pink .backBtn:hover {
+        background-image: url("../../images/matching/left.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .pink .backBtn:active {
+        background-image: url("../../images/matching/left.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .pink .backBtnDisabled {
+        background-image: url("../../images/matching/left.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .pink .nextBtn {
+        background-image: url("../../images/matching/right.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        background-color: #03579F;
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: 3px;
+    }
+
+    .desktop .pink .nextBtn:hover {
+        background-image: url("../../images/matching/right.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .pink .nextBtn:active {
+        background-image: url("../../images/matching/right.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .pink .nextBtnDisabled {
+        background-image: url("../../images/matching/right.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .pink .selected {
+        background-color: #84bd00;
+    }
+
+    .pink .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgb(3, 87, 159);
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #fff; */
+        display: none;
+
+    }
+
+    .desktop .pink .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .pink .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .pink .tryAgainBtn span {
+        /*! line-height:2.5; */
+    }
+
+    .pink .submitButton span {
+        /*! line-height:2.5; */
+    }
+
+    .pink .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: rgb(3, 87, 159);
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! box-shadow: 0px 3.5px 2.5px 0px rgba(86, 86, 86, 0.5); */
+        /*! border: 1px solid #fff; */
+        /*! font-weight: bold; */
+        left: 280px;
+    }
+
+    .desktop .pink .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .pink .submitButton:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .pink .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: rgb(3, 87, 159);
+        opacity: .5;
+    }
+
+    .pink .navBar {
+        background-color: rgb(3, 87, 159);
+    }
+
+    .pink .selected {
+        background-color: rgb(115, 195, 248) !important;
+    }
+    /*Red theme start here*/
+
+    .red .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .red .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .red .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .red .printBtnDisabled {
+        background-image: url("../../images/matching/print.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgba(153, 0, 29, .5);
+    }
+
+    .red .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .red .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .red .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .red .resetBtnDisabled {
+        background-image: url("../../images/matching/reset.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .red .backBtn {
+        background-image: url("../../images/matching/left.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: -2px;
+    }
+
+    .desktop .red .backBtn:hover {
+        background-image: url("../../images/matching/left.png");
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .red .backBtn:active {
+        background-image: url("../../images/matching/left.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .red .backBtnDisabled {
+        background-image: url("../../images/matching/left.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .red .nextBtn {
+        background-image: url("../../images/matching/right.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: 3px;
+    }
+
+    .desktop .red .nextBtn:hover {
+        background-image: url("../../images/matching/right.png");
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .red .nextBtn:active {
+        background-image: url("../../images/matching/right.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .red .nextBtnDisabled {
+        background-image: url("../../images/matching/right.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .red .selected {
+        background-color: #db0021;
+    }
+
+    .red .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #fff; */
+    }
+
+    .desktop .red .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .red .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .red .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #fff; */
+    }
+
+    .desktop .red .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .red .submitButton:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .red .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .red .navBar {
+        background-color: #03579F;
+    }
+
+    .red .selected {
+        background-color: #73c3f8;
+    }
+    /*Red theme end here*/
+    /*purple theme */
+
+    .purple .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .purple .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #33495b;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .purple .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #33495b;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #33495b;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple .backBtn {
+        background-image: url("../../images/matching/previous.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% 100%;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #33495B;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: -2px;
+    }
+
+    .desktop .purple .backBtn:hover {
+        background-image: url("../../images/matching/previous.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #33495B;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple .backBtn:active {
+        background-image: url("../../images/matching/previous.png");
+        background-color: #33495B;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple .backBtnDisabled {
+        background-image: url("../../images/matching/previous.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgba(234, 6, 126, .5);
+    }
+
+    .purple .nextBtn {
+        background-image: url("../../images/matching/next.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% 100%;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #33495B;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! margin-left: 6px; */
+        background-position: 3px;
+    }
+
+    .desktop .purple .nextBtn:hover {
+        background-image: url("../../images/matching/next.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #33495B;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple .nextBtn:active {
+        background-image: url("../../images/matching/next.png");
+        background-color: #33495B;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple .nextBtnDisabled {
+        background-image: url("../../images/matching/next.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgba(234, 6, 126, .5);
+    }
+
+    .purple .selected {
+        background-color: #3D5263;
+    }
+
+    .purple .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 17.5px/45px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        display: none;
+    }
+
+    .desktop .purple .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        /* margin: 0 auto;*/
+        background-color: #33495B;
+        -webkit-border-radius: 40px;
+        border-radius: 5px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #03579f; */
+        left: 430px;
+    }
+
+    .desktop .purple .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #33495B;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple .submitButton:active {
+        background-color: #33495B;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: #33495b;
+    }
+
+    .purple .backBtnDisabled {
+        background-color: #33495b;
+        opacity: 0.5;
+    }
+
+    .purple .nextBtnDisabled {
+        background-color: #33495b;
+        opacity: 0.5;
+    }
+
+    .purple .resetBtnDisabled {
+        background-image: url("../../images/matching/reset.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #33495b;
+        opacity: 0.5;
+    }
+
+    .purple .buttonDisabled {
+        background-color: #33495b;
+        opacity: 0.5;
+    }
+
+    .purple .activityArea {
+        /*  background-color: #9e007e;*/
+    }
+
+    .purple .navBar {
+        background-color: #3d5263;
+    }
+
+    .purple .selected {
+        background-color: #009899;
+    }
+    /*Red theme start here*/
+
+    .cyan .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .cyan .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .cyan .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .cyan .printBtnDisabled {
+        background-image: url("../../images/matching/print.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgba(0, 72, 84, .5);
+    }
+
+    .cyan .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .cyan .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .cyan .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .cyan .resetBtnDisabled {
+        background-image: url("../../images/matching/reset.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgba(0, 72, 84, .5);
+    }
+
+    .cyan .backBtn {
+        background-image: url("../../images/matching/left.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: -2px;
+    }
+
+    .desktop .cyan .backBtn:hover {
+        background-image: url("../../images/matching/left.png");
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .cyan .backBtn:active {
+        background-image: url("../../images/matching/left.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .cyan .backBtnDisabled {
+        background-image: url("../../images/matching/left.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+    }
+
+    .cyan .nextBtn {
+        background-image: url("../../images/matching/right.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: 3px;
+    }
+
+    .desktop .cyan .nextBtn:hover {
+        background-image: url("../../images/matching/right.png");
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .cyan .nextBtn:active {
+        background-image: url("../../images/matching/right.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .cyan .nextBtnDisabled {
+        background-image: url("../../images/matching/right.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+    }
+
+    .cyan .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #fff; */
+    }
+
+    .desktop .cyan .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .cyan .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .cyan .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #fff; */
+    }
+
+    .desktop .cyan .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .cyan .submitButton:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .cyan .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: .5;
+    }
+
+    .cyan .navBar {
+        background-color: #03579F;
+    }
+
+    .cyan .selected {
+        background-color: #73c3f8;
+    }
+    /*Red theme end here*/
+    /*purple1 theme */
+
+    .purple1 .printBtn {
+        background-image: url("../../images/matching/print.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .purple1 .printBtn:hover {
+        background-image: url("../../images/matching/print.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple1 .printBtn:active {
+        background-image: url("../../images/matching/print.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple1 .resetBtn {
+        background-image: url("../../images/matching/reset.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    }
+
+    .desktop .purple1 .resetBtn:hover {
+        background-image: url("../../images/matching/reset.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple1 .resetBtn:active {
+        background-image: url("../../images/matching/reset.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple1 .backBtn {
+        background-image: url("../../images/matching/left.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        background-position: -2px;
+    }
+
+    .desktop .purple1 .backBtn:hover {
+        background-image: url("../../images/matching/left.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple1 .backBtn:active {
+        background-image: url("../../images/matching/left.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple1 .backBtnDisabled {
+        background-image: url("../../images/matching/left.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgba(234, 6, 126, .5);
+    }
+
+    .purple1 .nextBtn {
+        background-image: url("../../images/matching/right.png");
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 50%;
+        font: normal 37px/70px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 32px;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! margin-left: 6px; */
+        background-position: 3px;
+    }
+
+    .desktop .purple1 .nextBtn:hover {
+        background-image: url("../../images/matching/right.png");
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple1 .nextBtn:active {
+        background-image: url("../../images/matching/right.png");
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple1 .nextBtnDisabled {
+        background-image: url("../../images/matching/right.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: rgba(234, 6, 126, .5);
+    }
+
+    .purple1 .selected {
+        background-color: #84bd00;
+    }
+
+    .purple1 .tryAgainBtn {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 17.5px/45px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*display: none;*/
+    }
+    .purple .showanswerBtn,
+    .purple1 .showanswerBtn,
+    .brown .showanswerBtn,
+    .cyan .showanswerBtn,
+    .red .showanswerBtn,
+    .pink .showanswerBtn,
+    .chrome_yellow .showanswerBtn,
+    .yellowgreen .showanswerBtn{
+    background-image: url(../../images/matching/showans.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    background-size: 100% auto;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: #33495b;
+    -webkit-border-radius: 40px;
+    border-radius: 50%;
+    font: normal 37px/70px Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 32px;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 1px;
+    -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+.purple .showanswerBtn:hover,
+.purple1 .showanswerBtn:hover,
+.brown .showanswerBtn:hover,
+.cyan .showanswerBtn:hover,
+.red .showanswerBtn:hover,
+.pink .showanswerBtn:hover,
+.chrome_yellow .showanswerBtn:hover,
+.yellowgreen .showanswerBtn:hover{
+  background-color: #33495b;
+  box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+}
+    .desktop .purple1 .tryAgainBtn:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 2.5px 2.5px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple1 .tryAgainBtn:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple1 .submitButton {
+        background-repeat: no-repeat;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 177px;
+        height: 55px;
+        background-size: 100% auto;
+        cursor: pointer;
+        /* margin: 0 auto;*/
+        background-color: #03579F;
+        -webkit-border-radius: 40px;
+        border-radius: 55px;
+        font: normal 23px/50px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        /* background: rgba(255, 255, 255, 1);*/
+        -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+        /*! border: 1px solid #03579f; */
+        left: 529px;
+    }
+
+    .desktop .purple1 .submitButton:hover {
+        color: rgba(255, 255, 255, 1);
+        background-color: #0274C9;
+        box-shadow: 0px 5.5px 2.7px 0px rgba(86, 86, 86, 0.5);
+    }
+
+    .desktop .purple1 .submitButton:active {
+        background-color: #04477A;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    .purple1 .buttonDisabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+    }
+
+    .purple1 .backBtnDisabled {
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .purple1 .nextBtnDisabled {
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .purple1 .resetBtnDisabled {
+        background-image: url("../../images/matching/reset.png");
+        cursor: default;
+        pointer-events: none;
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .purple1 .buttonDisabled {
+        background-color: #03579F;
+        opacity: 0.5;
+    }
+
+    .purple1 .activityArea {
+        /*  background-color: #9e007e;*/
+    }
+
+    .purple1 .navBar {
+        background-color: #03579F;
+    }
+
+    .purple1 .selected {
+        background-color: #73C3F8;
+    }
+ .purple .activityStyle {
+    border-left: 2px solid #009899;
+    border-right: 2px solid #009899;
+} 

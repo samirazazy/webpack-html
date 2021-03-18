@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <multipleChoice>
+        <questions>
+            <question id="4" correctAns="2">
+                 <shuffleData>False</shuffleData>  
+                <qnsText>
+                    <![CDATA[
+  <ol type="1" start="4"><li>
+On crossing of two plants with the recessive traits, in the case of complementary genes, the percentage of the first generation is 100%, and when the first generation plants self-pollinate, the percentage of the second generation is 9:3:3:1. 
+ </li></ol>
+]]>
+                </qnsText>
+                <options id="1">
+                    <label>
+                        <![CDATA[True]]>
+                    </label>
+                </options>
+                <options id="2">
+                    <label>
+                        <![CDATA[False]]>
+                    </label>
+                </options>
+              </question>
+        </questions>
+    </multipleChoice>
