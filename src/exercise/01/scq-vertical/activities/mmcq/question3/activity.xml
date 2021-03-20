@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <multipleChoice>
+        <questions>
+            <question id="3" correctAns="2">
+                <shuffleData>False</shuffleData>
+                <qnsText>
+                    <![CDATA[3.	Insects (hexapods) breath by .....
+                    ]]>
+                </qnsText>
+                <options id="1">
+                    <label>
+                        <![CDATA[lungs.]]>
+                    </label>
+                </options>
+                <options id="2">
+                    <label>
+                        <![CDATA[tracheoles.]]>
+                    </label>
+                </options>
+                 <options id="3">
+                    <label>
+                        <![CDATA[lung books.]]>
+                    </label>
+                </options>
+                 <options id="4">
+                    <label>
+                        <![CDATA[gills.]]>
+                    </label>
+                </options>
+                
+            </question>
+        </questions>
+    </multipleChoice>

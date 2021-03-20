@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <multipleChoice> 
+        <questions>
+            <question id="4" correctAns="1">
+                <shuffleData>False</shuffleData>
+                <qnsText>
+                    <![CDATA[4.	The head and thorax regions are fused together to form the cephalothorax in .....
+					]]>
+                </qnsText>
+                <options id="1">
+                    <label>
+                        <![CDATA[myriapods.]]>
+                    </label>
+                </options>
+                <options id="2">
+                    <label>
+                        <![CDATA[insectivores.]]>
+                    </label>
+                </options>
+                <options id="3">
+                    <label>
+                        <![CDATA[arachnids.]]>
+                    </label>
+                </options>
+                <options id="4">
+                    <label>
+                        <![CDATA[insects.]]>
+                    </label>
+                </options>
+                 
+            </question>
+        </questions>
+    </multipleChoice>

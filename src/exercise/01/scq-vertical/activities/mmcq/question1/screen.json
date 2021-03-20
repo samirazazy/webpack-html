@@ -1,0 +1,46 @@
+{
+	"screens": [
+		{
+			"id": "indexScreen",
+			"type": "screen",
+			"templateId": "screen1_template",
+			"script": "screen",
+			"data": {
+				"styleClass": "screenArea"
+			},
+			"events": [
+				{
+					"allChildAddedInDom": [
+						{
+							"target": "helper",
+							"method": "hidePreloader"
+						}
+					]
+				}
+			],
+			"components": [
+				{
+					"id": "submitBtn",
+					"type": "button",
+					"parentId": "#hotspotBtnHolder",
+					"data": {
+						"styleClass": "btnStyle submitBtn submitBtn_disable"
+					},
+					"events": [
+						{
+							"compClick": [
+								{
+									"target": "objWidget",
+									"method": "checkAnswer"
+								}, {
+									"target": "helper",
+									"method": "onSubmitClick"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

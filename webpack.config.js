@@ -5,8 +5,6 @@ module.exports = {
   entry: './src/index.html',
   output: {
     path: __dirname + '/dist/',
-    filename: 'bundle.js',
-    publicPath: '/',
   },
   devServer: {
     inline: false,
@@ -29,6 +27,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/index.html'),
       filename: 'index.html',
+      chunks: ['main'],
     }),
+    // new HtmlWebpackPlugin({
+    //   filename: 'ex.html',
+    //   template: './src/exercise/01/ex.html',
+    //   chunks: ['exEntry'],
+    // }),
   ],
 };

@@ -1,0 +1,238 @@
+{
+    "screens": [
+        {
+            "id": "indexScreen",
+            "type": "screen",
+            "templateId": "footertemmplate",
+            "script": "screen",
+            "data": {
+                "styleClass": "contentArea"
+            },
+            "events": [
+                {
+                    "allChildAddedInDom": [
+                        {
+                            "target": "helper",
+                            "method": "hidePreloader"
+						}
+					]
+				}
+			],
+            "components": [
+                {
+                    "id": "skipIntro",
+                    "type": "button",
+                    "parentId": "#mainContainer",
+                    "data": {
+                        "data": "skip",
+                        "label": "Skip Intro",
+                        "styleClass": "skipIntro"
+                    },
+                    "events": [
+                        {
+                            "compClick": [
+                                {
+                                    "target": "self",
+                                    "method": "jumpToActivityByID",
+                                    "params": {
+                                        "param": 10
+                                    }
+								}
+							]
+						}
+					]
+				}, {
+                    "id": "printBtn",
+                    "type": "button",
+                    "data": {
+                        "label": "Print",
+                        "toggle": "false",
+                        "styleClass": "buttonIcon printBtn",
+                        "stylelist": {
+                            "over": "",
+                            "active": "",
+                            "disabled": ""
+                        }
+                    },
+                    "events": [
+                        {
+                            "compClick": [
+                                {
+                                    "region": "mActivity",
+                                    "target": "helper",
+                                    "method": "onPrint"
+								}
+							]
+						}
+					],
+                    "html": {
+                        "align": "center"
+                    }
+				}, {
+                    "id": "resetBtn",
+                    "type": "button",
+                    "data": {
+                        "label": "Reset",
+                        "toggle": "false",
+                        "styleClass": "resetBtn resetBtn3 buttonDisabled",
+                        "stylelist": {
+                            "over": "",
+                            "active": "",
+                            "disabled": ""
+                        }
+                    },
+                    "events": [
+                        {
+                            "click": [
+                                {
+                                    "region": "mActivity",
+                                    "target": "helper",
+                                    "method": "onReset"
+								}
+							]
+						}
+					],
+                    "html": {
+                        "align": "center"
+                    }
+				},
+        {
+                    "id": "showAnswerBtn",
+                    "type": "button",
+                    "data": {
+                        "label": "Reveal",
+                        "toggle": "false",
+                        "styleClass": "showanswerBtn buttonDisabled",
+                        "stylelist": {
+                            "over": "",
+                            "active": "",
+                            "disabled": ""
+                        }
+                    },
+                    "events": [
+                        {
+                            "click": [
+                                {
+                                    "region": "mActivity",
+                                    "target": "helper",
+                                    "method": "onshowanswer"
+								}
+							]
+						}
+					],
+                    "html": {
+                        "align": "center"
+                    }
+				}, {
+                    "id": "tryAgainBtn",
+                    "type": "button",
+                    "data": {
+                        "label": "Try Again",
+                        "toggle": "false",
+                        "styleClass": "tryAgainBtn tryAgainBtn3 buttonDisabled",
+                        "stylelist": {
+                            "over": "",
+                            "active": "",
+                            "disabled": ""
+                        }
+                    },
+                    "events": [
+                        {
+                            "click": [
+                                {
+                                    "region": "mActivity",
+                                    "target": "helper",
+                                    "method": "onTryAgain"
+								}
+							]
+						}
+					],
+                    "html": {
+                        "align": "center"
+                    }
+				}, {
+                    "id": "submitButton",
+                    "type": "button",
+                    "data": {
+                        "label": "Submit",
+                        "toggle": "false",
+                        "styleClass": "submitButton submitButton3 buttonDisabled",
+                        "stylelist": {
+                            "over": "",
+                            "active": "",
+                            "disabled": ""
+                        }
+                    },
+                    "events": [
+                        {
+                            "click": [
+                                {
+                                    "region": "mActivity",
+                                    "target": "helper",
+                                    "method": "onSubmit"
+								}
+							]
+						}
+					],
+                    "html": {
+                        "align": "center"
+                    }
+				}, {
+                    "id": "backBtn",
+                    "type": "button",
+                    "data": {
+                        "label": "Previous",
+                        "toggle": "false",
+                        "styleClass": "buttonIcon backBtn backBtnDisabled",
+                        "stylelist": {
+                            "over": "",
+                            "active": "",
+                            "disabled": ""
+                        }
+                    },
+                    "events": [
+                        {
+                            "click": [
+                                {
+                                    "region": "mActivity",
+                                    "target": "helper",
+                                    "method": "onPrevious"
+								}
+							]
+						}
+					],
+                    "html": {
+                        "align": "center"
+                    }
+				}, {
+                    "id": "nextBtn",
+                    "type": "button",
+                    "data": {
+                        "label": "Next",
+                        "toggle": "false",
+                        "styleClass": "buttonIcon nextBtn",
+                        "stylelist": {
+                            "over": "",
+                            "active": "",
+                            "disabled": ""
+                        }
+                    },
+                    "events": [
+                        {
+                            "click": [
+                                {
+                                    "region": "mActivity",
+                                    "target": "helper",
+                                    "method": "onNext"
+								}
+							]
+						}
+					],
+                    "html": {
+                        "align": "center"
+                    }
+				}
+			]
+		}
+	]
+}

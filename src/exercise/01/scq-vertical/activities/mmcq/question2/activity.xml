@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <multipleChoice>
+        <questions>
+            <question id="2" correctAns="4">
+                <shuffleData>False</shuffleData>
+                <qnsText>
+                    <![CDATA[2.	Crustaceans have compound eyes that are formed of .....]]>
+                </qnsText>
+                <options id="1">
+                    <label>
+                        <![CDATA[one lens.]]>
+                    </label>
+                </options>
+                <options id="2">
+                    <label>
+                       <![CDATA[two lenses.]]>
+                    </label>
+                </options>
+                <options id="3">
+                    <label>
+                       <![CDATA[three lenses.]]>
+                    </label>
+                </options>
+                <options id="4">
+                    <label>
+                       <![CDATA[large number of lenses.]]>
+                    </label>
+                </options>
+                
+            </question>
+        </questions>
+    </multipleChoice>

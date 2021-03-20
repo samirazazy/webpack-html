@@ -1,0 +1,1 @@
+define(["components/commonmodel"],function(e){var n=e.extend({defaults:{value:void 0}});return n});

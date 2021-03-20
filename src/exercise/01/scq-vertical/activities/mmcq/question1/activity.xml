@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <multipleChoice>
+        <questions>
+            <question id="1" correctAns="3">
+                <shuffleData>False</shuffleData>
+                <qnsText>
+                    <![CDATA[1.	..... are arthropod invertebrates that have their body covered by chitin cuticles and breathe by gills.
+                  ]]>
+
+                </qnsText>
+                <options id="1">
+                    <label>
+                        <![CDATA[Arachnids]]>
+                    </label>
+                </options>
+                <options id="2">
+                    <label>
+                       <![CDATA[Insects]]>
+                    </label>
+                </options>
+                  <options id="3">
+                    <label>
+                        <![CDATA[Crustaceans]]>
+                    </label>
+                </options>
+                  <options id="4">
+                    <label>
+                        <![CDATA[Amphibians ]]>
+                    </label>
+                </options>
+                 
+            </question>
+        </questions>
+    </multipleChoice>
