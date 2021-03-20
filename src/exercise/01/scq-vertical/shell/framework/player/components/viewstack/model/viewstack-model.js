@@ -1,1 +1,0 @@
-define([],function(){var e=Backbone.Model.extend({defaults:{currentView:1,totalViews:2}});return e});

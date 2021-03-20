@@ -1,1 +1,0 @@
-define(["components/container"],function(e){var n=e.extend({isScreenInitalized:!0,initialize:function(){this.componentType="screen"}});return n.prototype.isValid=function(e){var n=!0;return("radio"===e||"answer"===e)&&(n=!1),n},n.prototype.ScreenSuper=e,n.prototype.destroy=function(){return this.ScreenSuper.prototype.destroy.call(this,!0)},n});

@@ -104,10 +104,10 @@
         function handleHeader() {
             if (deviceOrientation == "Landscape" || deviceOrientation == "Portrait") {
                 var headerHeight = $('.custom-navbar')[0].getBoundingClientRect().height;
-                $('.header-top-margin').css('margin-top', headerHeight + 24);
+                $('.header-top-margin').css('margin-top', 0);
             } else {
                 var headerHeight = $('.custom-navbar')[0].getBoundingClientRect().height;
-                $('.header-top-margin').css('margin-top', headerHeight + 24);
+                $('.header-top-margin').css('margin-top', 0);
             }
         }
 
@@ -137,7 +137,7 @@
 
 <body class="strand-navbar" dir="rtl">
     <!-- Navigation menu -->
-    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top  custom-navbar">
+    <nav class="navbar navbar-default navbar-inverse  custom-navbar">
         <div class="container-fluid">
             <div class="navbar-header header-text">
                 <p class="text-center fontsize-42"  dir="ltr">Lesson Title عنوان الدرس</p>

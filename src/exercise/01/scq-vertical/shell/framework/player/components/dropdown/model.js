@@ -1,1 +1,0 @@
-define(["components/commonmodel"],function(n){var e=n.extend({defaults:{options:""}});return e});

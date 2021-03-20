@@ -1,1 +1,0 @@
-define(["marionette"],function(){var e;e=Backbone.Marionette.Layout.extend({})});
